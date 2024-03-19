@@ -11,7 +11,7 @@ import Navbar from "@/components/Navbar";
 import Header from "@/components/Header";
 
 const inter = Inter({
-  subsets: ["latin"],
+  subsets: ["vietnamese"],
   weight: ["400", "500", "600", "700", "800"],
 });
 

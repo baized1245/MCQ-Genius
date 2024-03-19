@@ -12,7 +12,7 @@ const Navbar = () => {
       <div>
         <Image src={logo} alt="Logo" height={63} width={156} />
       </div>
-      <div className="flex items-center justify-center gap-2 font-medium">
+      <div className="flex items-center justify-center gap-2 font-medium text-base">
         <Link href={"/"} className="text-[#0098FF]">
           Home
         </Link>
@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
       <div className="flex items-center justify-center gap-9">
         <PiToggleLeftFill className="w-[68px] h-[32px] text-[#4AB6FF]" />
-        <button className="py-2 px-8 rounded-md font-semibold text-[#0098FF] border border-[#0098FF]">
+        <button className="py-2 px-8 rounded-md font-semibold text-xl text-[#0098FF] border border-[#0098FF]">
           Join
         </button>
       </div>
