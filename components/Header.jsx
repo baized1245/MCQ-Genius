@@ -23,7 +23,7 @@ const Header = () => {
           <Image src={group} alt="Group Image" width={424} height={272} />
         </div>
       </div>
-      <div className="max-w-5xl mx-auto rounded-lg -mt-8 poppins bg-[#FCD3D3] border border-dashed border-[#8B0E11]">
+      <div className="max-w-6xl mx-auto rounded-lg -mt-8 poppins bg-[#FCD3D3] border border-dashed border-[#8B0E11]">
         <div className="px-6 py-2 flex items-center justify-between">
           <h3 className="font-normal text-xs text-[#000000]">
             আগামীকাল শেষ হবে Product Management ক্যারিয়ার ট্র্যাকের নতুন ব্যাচের
