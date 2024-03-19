@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer utilities {
+  .poppins {
+    font-family: "Poppins";
+  }
+}
+@layer utilities {
+  .noto {
+    font-family: "Noto Serif Bengali";
+  }
+}
+@layer utilities {
+  .montserrat {
+    font-family: "Noto Serif Bengali";
+  }
+}
+@layer utilities {
+  .figtree {
+    font-family: "Figtree";
+  }
+}
