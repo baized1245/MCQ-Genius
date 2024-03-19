@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
+.custom-gradient {
+  background: radial-gradient(
+    59.84% 59.84% at 50% 40.16%,
+    rgba(193, 224, 255, 0.2) 0%,
+    rgba(48, 143, 239, 0.2) 100%
+  );
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -11,6 +23,11 @@
 @layer utilities {
   .poppins {
     font-family: "Poppins";
+  }
+}
+@layer utilities {
+  .inter {
+    font-family: "Inter";
   }
 }
 @layer utilities {

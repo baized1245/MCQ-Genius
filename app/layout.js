@@ -7,8 +7,13 @@ import {
   // Website_Blog_Subheading,
 } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+import Header from "@/components/Header";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+});
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -45,6 +50,8 @@ export default function RootLayout({ children }) {
       <body
         className={`${inter.className} ${poppins.className} ${noto.className} ${montserrat.className}`}
       >
+        <Navbar />
+        <Header />
         {children}
       </body>
     </html>
