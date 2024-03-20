@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import BlogSection from "@/components/BlogSection";
 import CourseCategory from "@/components/CourseCategory";
 import OurServices from "@/components/OurServices";
 import React from "react";
@@ -9,6 +10,7 @@ const page = () => {
       <Banner />
       <OurServices />
       <CourseCategory />
+      <BlogSection />
     </div>
   );
 };
