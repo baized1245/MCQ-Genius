@@ -9,6 +9,7 @@ import {
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const inter = Inter({
   subsets: ["vietnamese"],
@@ -53,6 +54,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

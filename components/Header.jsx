@@ -4,7 +4,7 @@ import { RxCrossCircled } from "react-icons/rx";
 
 const Header = () => {
   return (
-    <>
+    <header>
       <div className="max-w-7xl mx-auto custom-gradient p-20 flex items-center justify-center g">
         <div className="p-7">
           <h2 className="text-[#000000] font-bold text-6xl noto">
@@ -67,7 +67,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </>
+    </header>
   );
 };
 
