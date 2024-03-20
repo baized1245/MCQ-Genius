@@ -89,6 +89,11 @@ const BlogSection = () => {
           </div>
         </div>
       </div>
+      <div className="text-center">
+        <button className="bg-[#0098FF] text-[#FFFFFF] montserrat rounded-md py-4 px-10 font-normal text-2xl">
+          View All
+        </button>
+      </div>
     </div>
   );
 };
