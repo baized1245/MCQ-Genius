@@ -6,8 +6,8 @@ import { LuClock } from "react-icons/lu";
 
 const BlogSection = () => {
   return (
-    <div className="max-w-6xl mx-auto px-4 py-14 ">
-      <h2 className="text-center font-bold text-5xl my-2 noto">
+    <div className="max-w-6xl mx-auto px-4 py-14">
+      <h2 className="text-center font-bold text-5xl my-4 mb-4 noto">
         Learn More Form Blogs
       </h2>
       <div className="py-5 flex gap-x-8">
@@ -67,7 +67,7 @@ const BlogSection = () => {
               </span>
             </div>
           </div>
-          {/*  */}
+
           <div className="border border-[#489CE9] bg-[#30A2FF] rounded-2xl flex items-center gap-x-5 p-4 my-8">
             <div>
               <Image src={blank} alt="" />
@@ -89,7 +89,7 @@ const BlogSection = () => {
           </div>
         </div>
       </div>
-      <div className="text-center">
+      <div className="text-center my-2">
         <button className="bg-[#0098FF] text-[#FFFFFF] montserrat rounded-md py-4 px-10 font-normal text-2xl">
           View All
         </button>
