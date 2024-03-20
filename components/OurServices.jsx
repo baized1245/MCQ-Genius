@@ -1,4 +1,5 @@
-import React from "react";
+import Image from "next/image";
+import content from "../public/svg/content.svg";
 
 const OurServices = () => {
   return (
@@ -6,6 +7,9 @@ const OurServices = () => {
       <h2 className="font-bold text-5xl text-center p-2">
         MCQ Genius প্রোগ্রামে কী কী পাচ্ছো?
       </h2>
+      <div>
+        <Image src={content} alt="" />
+      </div>
     </div>
   );
 };
