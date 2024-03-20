@@ -8,8 +8,8 @@ import { CiYoutube } from "react-icons/ci";
 
 const Footer = () => {
   return (
-    <footer className="max-w-7xl mx-auto px-4 py-10 bg-[#30A2FF] mt-8 my-20 inter">
-      <div className="flex justify-between p-12 ">
+    <footer className="max-w-7xl mx-auto px-1 md:px-4 py-4 md:py-10 bg-[#30A2FF] mt-8 my-20 inter">
+      <div className="grid grid-cols-2 gap-5 md:flex justify-between p-4 md:p-12 ">
         <div className="space-y-3">
           <Image
             src={footerLogo}
@@ -63,7 +63,7 @@ const Footer = () => {
 
       <hr className=" mx-auto border-[#FFFFFF]" />
 
-      <div className="flex justify-between px-12 py-1 mt-2">
+      <div className="flex justify-between px-4 md:px-12 py-1 mt-2">
         <span className="font-normal text-sm text-[#FFFFFF]">
           ©2023, MCQ Genius. All Rights Reserved
         </span>

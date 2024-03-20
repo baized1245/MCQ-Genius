@@ -5,9 +5,9 @@ import { RxCrossCircled } from "react-icons/rx";
 const Header = () => {
   return (
     <header>
-      <div className="max-w-7xl mx-auto custom-gradient p-20 flex items-center justify-center g">
+      <div className="max-w-7xl mx-auto custom-gradient p-4 md:p-20 flex flex-col md:flex-row items-center justify-center">
         <div className="p-7">
-          <h2 className="text-[#000000] font-bold text-6xl noto">
+          <h2 className="text-[#000000] font-bold text-3xl md:text-6xl noto">
             Get Ready For Exam
           </h2>
           <p className="noto font-medium text-2xl text-[#767676] py-2">
@@ -19,12 +19,12 @@ const Header = () => {
           </button>
         </div>
 
-        <div className="p-6">
+        <div className="p-4 md:p-6">
           <Image src={group} alt="Group Image" width={424} height={272} />
         </div>
       </div>
-      <div className="max-w-6xl mx-auto rounded-lg -mt-8 poppins bg-[#FCD3D3] border border-dashed border-[#8B0E11]">
-        <div className="px-6 py-2 flex items-center justify-between">
+      <div className="max-w-[95%] md:max-w-6xl mx-auto rounded-lg -mt-8 poppins bg-[#FCD3D3] border border-dashed border-[#8B0E11]">
+        <div className="px-2 md:px-6 py-2 flex items-center justify-between">
           <h3 className="font-normal text-xs text-[#000000]">
             আগামীকাল শেষ হবে Product Management ক্যারিয়ার ট্র্যাকের নতুন ব্যাচের
             ভর্তি।

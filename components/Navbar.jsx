@@ -9,10 +9,10 @@ import { PiToggleLeftFill } from "react-icons/pi";
 const Navbar = () => {
   return (
     <nav className="max-w-7xl mx-auto flex items-center justify-between py-4 px-14 inter bg-[#FFFFFF] border border-[border: 1px solid border-image-source: linear-gradient(90.36deg, #FFFFFF 2.61%, rgba(255, 255, 255, 0.67) 101.77%)]">
-      <div>
+      <div className="hidden md:flex">
         <Image src={logo} alt="Logo" height={63} width={156} />
       </div>
-      <div className="flex items-center justify-center gap-2 font-medium text-base">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-2 font-medium text-base">
         <Link href={"/"} className="text-[#0098FF]">
           Home
         </Link>

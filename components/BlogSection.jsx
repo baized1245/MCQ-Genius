@@ -6,14 +6,14 @@ import { LuClock } from "react-icons/lu";
 
 const BlogSection = () => {
   return (
-    <div className="max-w-6xl mx-auto px-4 py-14">
-      <h2 className="text-center font-bold text-5xl my-4 mb-4 noto">
+    <div className="max-w-6xl mx-auto p-4 md:py-14">
+      <h2 className="text-center font-bold text-3xl md:text-5xl my-4 mb-4 noto">
         Learn More Form Blogs
       </h2>
-      <div className="py-5 flex gap-x-8">
+      <div className="py-5 flex flex-col md:flex-row gap-8">
         <div className="col-span-5 border border-[#489CE9] rounded-2xl">
           <Image src={blog} alt="Blog Page Image" />
-          <div className="p-">
+          <div className="">
             <div className="flex mx-auto gap-x-3 items-center poppins my-4 p-3">
               <span className="flex items-center gap-x-2">
                 <MdOutlineCalendarToday
@@ -48,7 +48,7 @@ const BlogSection = () => {
         </div>
 
         <div className="col-span-7 w-full">
-          <div className="border border-[#489CE9] rounded-2xl flex items-center gap-x-5 p-4">
+          <div className="border border-[#489CE9] rounded-2xl flex items-center gap-5 p-4">
             <div>
               <Image src={blank} alt="" />
             </div>
@@ -57,12 +57,12 @@ const BlogSection = () => {
                 Unlocking the Power of Inclusive Design: A Guide to Accessible
                 Marketing
               </h2>
-              <p className="text-sm font-normal text-[#363636] my-1">
+              <p className="text-sm font-normal text-[#363636] md:my-1">
                 Discover the impact of inclusive design on marketing, and learn
                 strategies to create accessible content that resonates with
                 diverse audiences....
               </p>
-              <span className="text-sm font-medium text-[#363636] my-1 underline cursor-pointer">
+              <span className="text-sm font-medium text-[#363636] md:my-1 mb-2 underline cursor-pointer">
                 Read more
               </span>
             </div>
@@ -77,19 +77,19 @@ const BlogSection = () => {
                 Unlocking the Power of Inclusive Design: A Guide to Accessible
                 Marketing
               </h2>
-              <p className="text-sm font-normal text-[#FFFFFF] my-1">
+              <p className="text-sm font-normal text-[#FFFFFF] md:my-1">
                 Discover the impact of inclusive design on marketing, and learn
                 strategies to create accessible content that resonates with
                 diverse audiences....
               </p>
-              <span className="text-sm font-medium text-[#FFFFFF] my-1 underline cursor-pointer">
+              <span className="text-sm font-medium text-[#FFFFFF] md:my-1 underline cursor-pointer">
                 Read more
               </span>
             </div>
           </div>
         </div>
       </div>
-      <div className="text-center my-2">
+      <div className="text-center md:my-2">
         <button className="bg-[#0098FF] text-[#FFFFFF] montserrat rounded-md py-4 px-10 font-normal text-2xl">
           View All
         </button>
