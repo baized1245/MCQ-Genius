@@ -44,10 +44,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col space-y-3">
-          <button className="font-semibold text-lg bg-white text-primary px-10 py-3 rounded-md">
+          <button className="font-semibold text-lg bg-white text-primary px-10 py-3 rounded-md transition-all ease-in-out duration-300 hover:bg-transparent hover:text-white hover:border border-white">
             Register
           </button>
-          <button className="font-semibold text-lg bg-transparent text-white border border-white px-10 py-3 rounded-md">
+          <button className="font-semibold text-lg bg-transparent text-white border border-white px-10 py-3 rounded-md transition-all ease-in-out duration-300 hover:bg-slate-50 hover:text-primary">
             Log in
           </button>
         </div>

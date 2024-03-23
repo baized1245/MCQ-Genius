@@ -1,5 +1,11 @@
 import Image from "next/image";
 import group from "../public/assets/Group 18210.png";
+import questionBank from "../public/svg/question-bank.svg";
+import course from "../public/svg/course.svg";
+import job from "../public/svg/job.svg";
+import exam from "../public/svg/exam.svg";
+import lecturer from "../public/svg/lecturer.svg";
+import chat from "../public/svg/chat.svg";
 import { RxCrossCircled } from "react-icons/rx";
 
 const Header = () => {
@@ -14,7 +20,7 @@ const Header = () => {
             Stay Ahead in Competitive School and Job Exams like Never Before.
           </p>
 
-          <button className="montserrat py-4 px-10 font-medium bg-primary-dark rounded-md text-2xl transition-all ease-in-out duration-300 hover:bg-primary-dark/80">
+          <button className="montserrat py-4 px-10 font-medium bg-primary rounded-md text-2xl transition-all ease-in-out duration-300 hover:bg-primary-dark/70">
             Join Today
           </button>
         </div>
@@ -31,25 +37,25 @@ const Header = () => {
           </h3>
           <div className="flex items-center justify-center gap-3 text-center">
             <h3 className="font-normal text-xs text-black">সময় বাকি</h3>
-            <div className=" border-black border-[0.5px] ">
+            <div className="border border-black text-center text-wrap overflow-hidden rounded-lg w-11 h-11">
               <h5 className="font-semibold text-xs py-1 px-3 bg-white">১</h5>
               <h5 className="font-normal text-[10px] py-1 px-2 bg-black text-white">
                 দিন
               </h5>
             </div>
-            <div className=" border-black border-[0.5px] ">
+            <div className=" border border-black text-center text-wrap overflow-hidden rounded-lg w-11 h-11">
               <h5 className="font-semibold text-xs py-1 px-3 bg-white">১</h5>
               <h5 className="font-normal text-[10px] py-1 px-2 bg-black text-white">
                 ঘন্টা
               </h5>
             </div>
-            <div className=" border-black border-[0.5px] ">
+            <div className=" border border-black text-center text-wrap overflow-hidden rounded-lg w-11 h-11">
               <h5 className="font-semibold text-xs py-1 px-3 bg-white">১</h5>
               <h5 className="font-normal text-[10px] py-1 px-2 bg-black text-white">
                 মিনিট
               </h5>
             </div>
-            <div className=" border-black border-[0.5px] ">
+            <div className=" border border-black text-center text-wrap overflow-hidden rounded-lg w-11 h-11">
               <h5 className="font-semibold text-xs py-1 px-3 bg-white">১</h5>
               <h5 className="font-normal text-[10px] py-1 px-2 bg-black text-white">
                 সেকেন্ড

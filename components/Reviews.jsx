@@ -6,7 +6,6 @@ const Reviews = () => {
   return (
     <div className="bg-white max-w-7xl mx-auto px-4 py-6 md:py-14 relative">
       <div className="max-w-6xl mx-auto">
-        {/* Header */}
         <div className="text-center montserrat md:p-8 flex flex-col my-2 gap-2 md:gap-5 montserrat">
           <h2 className="text-black font-bold text-3xl md:text-5xl ">
             Our Students Reviews
@@ -16,7 +15,6 @@ const Reviews = () => {
           </h3>
         </div>
 
-        {/* container */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 poppins px-8">
           <div className="border border-primary rounded-2xl text-center py-8 px-2 flex flex-col gap-2 ">
             <p className="font-normal text-black text-base">

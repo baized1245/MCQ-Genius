@@ -13,10 +13,12 @@ const InformationSection = () => {
       <div className="max-w-6xl mx-auto p-4 flex flex-col md:flex-row gap-8 my-2 mt-6">
         <div className="col-span-4 space-y-2">
           <div className="flex gap-x-5 p-4 rounded-lg border border-primary bg-primary-light">
-            <FaRegCircle
-              size={24}
-              className="text-black-light bg-black-light rounded-full"
-            />
+            <div className="rounded-full">
+              <FaRegCircle
+                size={24}
+                className="text-black-light bg-black-light rounded-full"
+              />
+            </div>
             <div className="text-white flex flex-col">
               <h2 className="font-semibold text-2xl">General Inqueries</h2>
               <p className="font-normal text-base">
@@ -26,10 +28,12 @@ const InformationSection = () => {
           </div>
 
           <div className="flex gap-5 p-4 rounded-lg border border-primary bg-white">
-            <FaRegCircle
-              size={24}
-              className="text-black-light bg-black-light rounded-full"
-            />
+            <div className="rounded-full">
+              <FaRegCircle
+                size={24}
+                className="text-black-light bg-black-light rounded-full"
+              />
+            </div>
             <div className="text-black flex flex-col gap-y-1">
               <h2 className="font-semibold text-2xl">General Inqueries</h2>
               <p className="font-normal text-base text-black">
@@ -39,10 +43,12 @@ const InformationSection = () => {
           </div>
 
           <div className="flex gap-5 p-4 rounded-lg border border-primary bg-white">
-            <FaRegCircle
-              size={24}
-              className="text-black-light bg-black-light rounded-full"
-            />
+            <div className="rounded-full">
+              <FaRegCircle
+                size={24}
+                className="text-black-light bg-black-light rounded-full"
+              />
+            </div>
             <div className="text-black flex flex-col gap-y-1">
               <h2 className="font-semibold text-2xl">General Inqueries</h2>
               <p className="font-normal text-base text-black">
@@ -52,10 +58,12 @@ const InformationSection = () => {
           </div>
 
           <div className="flex gap-5 p-4 rounded-lg border border-primary bg-white">
-            <FaRegCircle
-              size={24}
-              className="text-black-light bg-black-light rounded-full"
-            />
+            <div className="rounded-full">
+              <FaRegCircle
+                size={24}
+                className="text-black-light bg-black-light rounded-full"
+              />
+            </div>
             <div className="text-black flex flex-col gap-y-1">
               <h2 className="font-semibold text-2xl">General Inqueries</h2>
               <p className="font-normal text-base text-black">
@@ -67,10 +75,12 @@ const InformationSection = () => {
 
         <div className="col-span-8 p-4 border border-primary rounded-2xl">
           <div className="flex gap-5 p-4 rounded-lg  bg-white">
-            <FaRegCircle
-              size={24}
-              className="text-black-light bg-black-light rounded-full"
-            />
+            <div className="rounded-full">
+              <FaRegCircle
+                size={24}
+                className="text-black-light bg-black-light rounded-full"
+              />
+            </div>
             <div className="text-black flex flex-col gap-y-4">
               <h2 className="font-semibold text-2xl">General Inqueries</h2>
               <p className="font-normal text-base text-black">

@@ -90,7 +90,7 @@ const BlogSection = () => {
         </div>
       </div>
       <div className="text-center md:my-2">
-        <button className="bg-primary-dark text-white montserrat rounded-md py-4 px-10 font-normal text-2xl transition-all ease-in-out duration-300 hover:bg-primary-dark/80">
+        <button className="bg-primary text-white montserrat rounded-md py-4 px-10 font-normal text-2xl transition-all ease-in-out duration-300 hover:bg-primary-dark/70">
           View All
         </button>
       </div>
