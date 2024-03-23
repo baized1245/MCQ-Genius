@@ -15,7 +15,7 @@ const Reviews = () => {
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 poppins px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 poppins px-8">
           <div className="border border-primary rounded-2xl text-center py-8 px-2 flex flex-col gap-2 ">
             <p className="font-normal text-black text-base">
               কোর্সটির প্রতিটি সেকশনে ছিল স্পষ্ট নির্দেশনা । বিশেষ করে,
@@ -62,7 +62,7 @@ const Reviews = () => {
           </div>
         </div>
       </div>
-      <div className="hidden md:flex gap-x-[1130px] absolute bottom-40">
+      <div className="hidden lg:flex gap-x-[1130px] absolute bottom-40">
         <Image
           src={leftArrow}
           alt="Blog Page Image"

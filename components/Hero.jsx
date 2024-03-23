@@ -11,12 +11,12 @@ import { RxCrossCircled } from "react-icons/rx";
 const Header = () => {
   return (
     <header>
-      <div className="max-w-7xl mx-auto custom-gradient p-4 md:p-20 flex flex-col md:flex-row items-center justify-center">
-        <div className="p-7">
+      <div className="max-w-7xl mx-auto custom-gradient p-4 md:p-8 lg:p-20 flex flex-col lg:flex-row items-center justify-center">
+        <div className="">
           <h2 className="text-black font-bold text-3xl md:text-6xl noto">
             Get Ready For Exam
           </h2>
-          <p className="noto font-medium text-2xl text-[#767676] py-2">
+          <p className="noto font-medium text-2xl text-[#767676] my-2">
             Stay Ahead in Competitive School and Job Exams like Never Before.
           </p>
 
@@ -25,7 +25,7 @@ const Header = () => {
           </button>
         </div>
 
-        <div className="p-4 md:p-6 grid grid-cols-2 md:grid-cols-3 gap-y-6 gap-x-12  noto">
+        <div className="p-4 my-2 md:p-6 grid grid-cols-2 md:grid-cols-3 gap-y-6 gap-x-12 noto">
           <div className="w-28 h-28 space-y-2 bg-white rounded-2xl flex flex-col items-center justify-center shadow shadow-black/25  drop-shadow-2xl cursor-pointer">
             <Image
               src={questionBank}
@@ -59,7 +59,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="max-w-[95%] md:max-w-6xl mx-auto rounded-lg -mt-8 poppins bg-[#FCD3D3] border border-dashed border-[#8B0E11]">
+      <div className="max- w-[95%] text-wrap md:max-w-6xl mx-auto rounded-lg -mt-8 poppins bg-[#FCD3D3] border border-dashed border-[#8B0E11]">
         <div className="px-2 md:px-6 py-2 flex items-center justify-between">
           <h3 className="font-normal text-xs text-black">
             আগামীকাল শেষ হবে Product Management ক্যারিয়ার ট্র্যাকের নতুন ব্যাচের

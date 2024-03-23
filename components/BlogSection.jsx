@@ -10,9 +10,15 @@ const BlogSection = () => {
       <h2 className="text-center font-bold text-3xl md:text-5xl my-4 mb-4 noto">
         Learn More Form Blogs
       </h2>
-      <div className="py-5 flex flex-col md:flex-row gap-8">
+      <div className="py-5 lg:grid grid-cols-12 gap-8 flex flex-col text-wrap flex-wrap">
         <div className="col-span-5 border border-primary-light rounded-2xl">
-          <Image src={blog} alt="Blog Page Image" />
+          <Image
+            src={blog}
+            alt="Blog Page Image"
+            width={435}
+            height={230}
+            className="object-right w-full"
+          />
           <div className="">
             <div className="flex mx-auto gap-x-3 items-center poppins my-4 p-3">
               <span className="flex items-center gap-x-2">
@@ -25,12 +31,12 @@ const BlogSection = () => {
               <span className="flex items-center gap-x-2">
                 <LuClock
                   size={16}
-                  className=" text-primary-dark font-semibold text-[20px]"
+                  className=" text-primary-dark font-semibold text-xl"
                 />
                 <h5>9 min read</h5>
               </span>
             </div>
-            <div className="my-5 poppins text-wrap overflow-hidden w-[387px] h-[188px] p-3">
+            <article className="my-5 poppins text-wrap overflow-hidden w-96 h-48 p-3">
               <h2 className="text-black font-semibold">
                 Unlocking the Power of Inclusive Design: A Guide to Accessible
                 Marketing
@@ -43,16 +49,22 @@ const BlogSection = () => {
               <span className="cursor-pointer font-medium text-sm text-black-light">
                 Read more
               </span>
-            </div>
+            </article>
           </div>
         </div>
 
         <div className="col-span-7 w-full">
-          <div className="border border-primary-light rounded-2xl flex items-center gap-5 p-4">
-            <div>
-              <Image src={blank} alt="" />
+          <div className="border border-primary-light rounded-2xl flex flex-col lg:flex-row items-center gap-5 p-4">
+            <div className="w-fit">
+              <Image
+                src={blank}
+                alt="Blank Image"
+                width={233}
+                height={185}
+                className="w-60 h-48"
+              />
             </div>
-            <div className="w-[437px] h-[169px] noto">
+            <div className="sm:w-full noto">
               <h2 className="text-black font-semibold text-xl">
                 Unlocking the Power of Inclusive Design: A Guide to Accessible
                 Marketing
@@ -68,11 +80,17 @@ const BlogSection = () => {
             </div>
           </div>
 
-          <div className="border border-primary-light bg-primary rounded-2xl flex items-center gap-x-5 p-4 my-8">
-            <div>
-              <Image src={blank} alt="" />
+          <div className="border border-primary-light bg-primary rounded-2xl flex flex-col lg:flex-row items-center gap-x-5 p-4 my-8">
+            <div className="w-fit">
+              <Image
+                src={blank}
+                alt="Blank Image"
+                width={233}
+                height={185}
+                className="w-60 h-48"
+              />
             </div>
-            <div className="w-[437px] h-[169px] noto">
+            <div className="sm:w-full noto">
               <h2 className="text-white font-semibold text-xl">
                 Unlocking the Power of Inclusive Design: A Guide to Accessible
                 Marketing
