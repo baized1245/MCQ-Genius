@@ -30,26 +30,26 @@ html {
 
 @layer utilities {
   .poppins {
-    font-family: "Poppins";
+    font-family: var(--font-poppins);
   }
 }
 @layer utilities {
   .inter {
-    font-family: "Inter";
+    font-family: var(--font-inter);
   }
 }
 @layer utilities {
   .noto {
-    font-family: "Noto Serif Bengali";
+    font-family: var(--font-noto);
   }
 }
 @layer utilities {
   .montserrat {
-    font-family: "Noto Serif Bengali";
+    font-family: var(--font-montserrat);
   }
 }
 @layer utilities {
   .figtree {
-    font-family: "Figtree";
+    font-family: var(--font-figtree);
   }
 }
