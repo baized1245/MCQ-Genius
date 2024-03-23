@@ -12,7 +12,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 const inter = Inter({
-  subsets: ["vietnamese"],
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
   weight: ["400", "500", "600", "700", "800"],
 });
 
@@ -49,7 +51,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.className} ${poppins.className} ${noto.className} ${montserrat.className}`}
+        className={`${inter.variable} ${poppins.className} ${noto.className} ${montserrat.className}`}
       >
         <Navbar />
         <Header />
