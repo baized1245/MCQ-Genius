@@ -14,7 +14,7 @@ const Header = () => {
             Stay Ahead in Competitive School and Job Exams like Never Before.
           </p>
 
-          <button className="montserrat py-4 px-10 font-medium bg-primary-light rounded-md text-2xl">
+          <button className="montserrat py-4 px-10 font-medium bg-primary-dark rounded-md text-2xl transition-all ease-in-out duration-300 hover:bg-primary-dark/80">
             Join Today
           </button>
         </div>

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import footerLogo from "../public/svg/footerLogo.svg";
+import footerLogo from "../public/svg/footerlogo.svg";
 import { AiFillFacebook } from "react-icons/ai";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa6";

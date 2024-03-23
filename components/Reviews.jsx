@@ -1,5 +1,5 @@
-import leftArrow from "../public/svg/leftArrow.svg";
-import righttArrow from "../public/svg/rightArrow.svg";
+import leftArrow from "../public/svg/leftarrow.svg";
+import righttArrow from "../public/svg/rightarrow.svg";
 import Image from "next/image";
 
 const Reviews = () => {
