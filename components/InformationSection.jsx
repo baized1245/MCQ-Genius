@@ -100,7 +100,7 @@ const InformationSection = () => {
                 .
               </p>
             </div>
-            <RxMinusCircled size={24} className="text-black" />
+            <RxMinusCircled size={32} className="text-black" />
           </div>
           <hr className=" mx-auto border-primary" />
 
